@@ -96,6 +96,7 @@ class TestController extends Controller
     public function destroy($id)
     {
         $test = \App\Test::find($id);
+        // test
 
         $test->delete();
     }
